@@ -64,7 +64,7 @@ var NestComponent = /** @class */ (function () {
     function NestComponent(httpClient) {
         var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_common_http__["c" /* HttpHeaders */]();
         headers.set('Access-Control-Allow-Origin', '*');
-        httpClient.post('https://home.nest.com/login/oauth2?client_id=1dcadd93-8cee-4caa-a97e-ac0752e46985&state=STATE', {}, { headers: headers })
+        httpClient.post('https://home.nest.com/login/oauth2?client_id=1dcadd93-8cee-4caa-a97e-ac0752e46985&state=STATE', {})
             .subscribe(function (res) { console.log(res); });
     }
     NestComponent = __decorate([
